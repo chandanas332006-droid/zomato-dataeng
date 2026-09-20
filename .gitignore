@@ -5,3 +5,10 @@ order_items.csv
 menu.csv
 .env
 Creds.txt
+.env
+ai/.env
+airflow/profiles.yml
+Creds.txt
+.venv/
+*.csv
+airflow/logs/
