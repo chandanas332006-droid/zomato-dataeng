@@ -74,8 +74,6 @@ zomato-dataeng/
 
 The DAG runs four tasks in sequence: raw reload → core dbt models → AI review enrichment → AI-aware dbt models.
 
-![zomato_batch DAG run — reload_raw, dbt_build_core, enrich_reviews, dbt_build_ai all succeeded](./images/zomato_batch_dag.png)
-
 | Task            | Operator               | Purpose                                      |
 |------------------|-------------------------|-----------------------------------------------|
 | `reload_raw`      | SQLExecuteQueryOperator | Load raw Zomato data into Snowflake            |
@@ -152,14 +150,3 @@ The DAG runs four tasks in sequence: raw reload → core dbt models → AI revie
 - [ ] Expand Gemini enrichment to cuisine/order pattern insights
 
 ---
-
-## 👤 Author
-
-**Chandana S.**
-Computer Science & Engineering (AI & ML), BMSIT
-
----
-
-## 📄 License
-
-This project is currently unlicensed. Add a `LICENSE` file if you'd like to open it up for reuse.
