@@ -1,0 +1,13 @@
+zomato:
+  outputs:
+    dev:
+      account: <______>
+      database: ZOMATO
+      password: #######
+      role: DBT_ROLE
+      schema: STAGING
+      threads: 8
+      type: snowflake
+      user: _________
+      warehouse: ZOMATO_WH
+  target: dev
