@@ -1,0 +1,7 @@
+.venv/
+airflow/logs/
+orders.csv
+order_items.csv
+menu.csv
+.env
+Creds.txt
