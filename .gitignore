@@ -12,4 +12,3 @@ Creds.txt
 .venv/
 *.csv
 airflow/logs/
-airflow/example.env
